@@ -102,7 +102,7 @@ class LibraryManager:
                 if book.availability == "available":
                     self.books.remove(book)
                 else:
-                    print("Book", book_id," is not available, therefore it can not be deleted.")
+                    print("Book", book_id," is unavailable, it can not be deleted")
                 break
         else:
             print("Book not found")
