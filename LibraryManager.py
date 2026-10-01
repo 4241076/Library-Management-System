@@ -94,7 +94,7 @@ class LibraryManager:
                     print("Book ", book_id, " is available in the library, cannot be returned")
                     break
             else:
-                print("Invalid, member ", member_id, " doesn't have book ", book_id)
+                print("Member ", member_id, " doesn't have book ", book_id)
 
     def delete_book(self, book_id):
         for book in self.books:
