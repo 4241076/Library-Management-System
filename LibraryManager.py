@@ -26,7 +26,7 @@ class LibraryManager:
 
     def display_books(self):
         if not self.books:
-            print("There are currently no books in the library.")
+            print("There's currently no book in the library.")
         else:
             for book in self.books:
                 book.display()
